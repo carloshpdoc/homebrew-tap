@@ -1,6 +1,6 @@
 cask "harbofly" do
-  version "1.4.0"
-  sha256 "f3c696d4eaf8716eb980999af7012cd26a09704fb8a4653174703c78cae0ffb6"
+  version "1.5.0"
+  sha256 "4276a36667bd7c6169c52c4e555c3a19b81781e1d35f09b212fb3871b1f3537f"
 
   url "https://github.com/carloshpdoc/Harbofly/releases/download/v#{version}/Harbofly.dmg",
       verified: "github.com/carloshpdoc/Harbofly/"
