@@ -16,6 +16,7 @@ cask "harbofly" do
   depends_on macos: :sonoma
 
   app "Harbofly.app"
+  binary "#{appdir}/Harbofly.app/Contents/MacOS/Harbofly", target: "harbofly"
 
   zap trash: [
     "~/Library/Preferences/app.harbofly.plist",
